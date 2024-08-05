@@ -31,7 +31,7 @@ st.markdown(
 st.progress(10)
 
 
-df = pd.read_csv('./diabetes/diabetes.csv')
+df = pd.read_csv('./diabetes.csv')
 
 def greet():
     st.write("******************************************")
