@@ -30,13 +30,8 @@ st.markdown(
 
 st.progress(10)
 
-# Load dataset
-#try:
-   # df = pd.read_csv('./diabetes/diabetes.csv')
-#except FileNotFoundError:
-    #st.error("Dataset file not found. Please check the file path.")
-    #df = pd.DataFrame()  # Initialize an empty DataFrame
-df = pd.read_csv(r'C:\Users\ASUS\Downloads\diabetes\diabetes.csv')
+
+df = pd.read_csv('./diabetes/diabetes.csv')
 
 def greet():
     st.write("******************************************")
